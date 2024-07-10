@@ -4,7 +4,7 @@ import debounce from 'lodash.debounce';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import('tailwindcss').Config;
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   const InitialItems = items;
@@ -114,7 +114,7 @@ const Homepage = () => {
             <input type='text' placeholder='Search case name...' className='bg-gray-800 rounded px-3 h-8 w-full' onChange={debouncedOnchange} />
             </div>
           
-
+          
           <div className='grid w-[100%] mt-4
           md:w-[30%]
           md:flex
@@ -139,7 +139,8 @@ const Homepage = () => {
           </div>
           </div>
         </div>
-
+        
+        
         <div className='relative tracking-wide text-sm leading-3 font-sans bg-[#15171e] p-7 grid gap-3 min-h-[calc(100vh-250px)]
          grid-cols-2
          sm:grid-cols-3
@@ -153,6 +154,7 @@ const Homepage = () => {
               className=' border-none font-medium rounded bg-[#181a21] cursor-pointer flex flex-col items-center transition-all p-3 
               relative gap-4 hover:scale-105 group min-h-[170px] max-h-[170px] max-w-[170px]'
             >
+              <Link to={`spinpage/${item.id}`} >
               <span className='text-gray-300'>{item.title}</span>
               <img
                 className='group-hover:-rotate-6 transition-all w-full max-w-[90px] rendering-pixelated'
@@ -168,6 +170,7 @@ const Homepage = () => {
                   className='w-4 h-4 ml-2'
                 />
               </span>
+              </Link>
             </div>
           ))}
         </div>
