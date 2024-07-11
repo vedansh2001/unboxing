@@ -79,7 +79,7 @@ const Spinpage = () => {
         </div>
 
         {/* Right Side */}
-        <div className='-ml-6 h-1/2 sm:h-full font-sans tracking-wide font-medium text-gray-300 bg-[#181a21] flex flex-col justify-between p-5 sm:w-[50%] md:w-[70%] lg:w-[60%] xl:w-[70%]'>
+        <div className='-ml-7 h-1/2 sm:h-full font-sans tracking-wide font-medium text-gray-300 bg-[#181a21] flex flex-col justify-between p-5 sm:w-[50%] md:w-[70%] lg:w-[60%] xl:w-[70%]'>
           <Link to='/' className='flex justify-end'>Back</Link>
           <div className='lg:flex'>
             <img
