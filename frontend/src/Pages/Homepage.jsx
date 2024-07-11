@@ -6,6 +6,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}  
+
+
 const Homepage = () => {
   const InitialItems = items;
   const [sortedItems, setSortedItems] = useState(InitialItems);
@@ -60,7 +65,7 @@ const Homepage = () => {
   }, []);
 
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: slidesToShow,
     slidesToScroll: 1,
@@ -149,12 +154,13 @@ const Homepage = () => {
          xl:grid-cols-7
         '>
           {sortedItems.map((item, index) => (
+            <Link to={`spinpage/${item.id}`} onClick={scrollToTop}>
             <div
               key={index}
               className=' border-none font-medium rounded bg-[#181a21] cursor-pointer flex flex-col items-center transition-all p-3 
               relative gap-4 hover:scale-105 group min-h-[170px] max-h-[170px] max-w-[170px]'
             >
-              <Link to={`spinpage/${item.id}`} >
+              
               <span className='text-gray-300'>{item.title}</span>
               <img
                 className='group-hover:-rotate-6 transition-all w-full max-w-[90px] rendering-pixelated'
@@ -170,8 +176,9 @@ const Homepage = () => {
                   className='w-4 h-4 ml-2'
                 />
               </span>
-              </Link>
+             
             </div>
+            </Link>
           ))}
         </div>
       </div>
