@@ -135,7 +135,7 @@ export const items = [
     {
         id:23,
         imageURL:"https://growdice.co/assets/exotic_accessories-c0dd0323.png?format=webp",
-        title:"LUCKY",
+        title:"LUCKYOK",
         price:109.92
     },
     {
