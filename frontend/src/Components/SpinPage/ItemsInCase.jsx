@@ -1,10 +1,11 @@
 import React from 'react'
 import { categories } from '../../assets/Data';
 
-const ItemsInCase = () => {
+const ItemsInCase = (showItems) => {
 
-    
-  const displaycategories = categories.filter((item) => item.id > 5 && item.id < 11);
+  // const displaycategories = categories.filter((item) => item.id > 5 && item.id < 11);
+  // console.log(showItems);
+     const displaycategories = showItems.showItems.listofobj;
 
   return (
     <>
@@ -18,14 +19,14 @@ const ItemsInCase = () => {
                 className='border-none font-medium rounded bg-[#181a21] cursor-pointer flex flex-col items-center transition-all p-3 pt-1 relative hover:scale-105 group min-h-[185px] max-h-[190px] min-w-[170px] max-w-[190px] text-gray-300'
               >
                 <span className='w-[176px] sm:w-[186px] h-[2px] bg-orange-400 ' > </span>
-                <span className='absolute left-3 top-2'>5.35%</span>
+                <span className='absolute left-3 top-2'>{item.prob}%</span>
                 <img
-                  className='group-hover:-rotate-6 transition-all w-full max-w-[60px] rendering-pixelated mt-6 slide-image'
+                  className='group-hover:-rotate-6 transition-all w-full max-w-[60px] rendering-pixelated mt-12 slide-image'
                   style={{ filter: 'drop-shadow(rgba(0, 0, 0, 0.3) -6px 6px 0px)' }}
                   src={item.imageURL}
                   alt=''
                 />
-                <span className='mt-1'>{item.title}</span>
+                <span className='mt-2'>{item.title}</span>
                 <span className='flex items-center gap-1 mt-1'>
                   {item.price}
                   <img
