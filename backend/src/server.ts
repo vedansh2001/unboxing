@@ -8,7 +8,7 @@ const app = express();
 let recievedId;
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://main.d3rorkfeyy5adx.amplifyapp.com/',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
   }));
