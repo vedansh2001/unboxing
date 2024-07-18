@@ -1,153 +1,8 @@
-export const items = [
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ItemToShow = exports.categories = void 0;
+exports.categories = [
     {
-        id:1,
-        imageURL:"https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
-        title:"LUCKY",
-        price:0.88
-    },
-    {
-        id:2,
-        imageURL:"https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
-        title:"STARTER",
-        price:0.61
-    },
-    {
-        id:3,
-        imageURL:"https://growdice.co/assets/exotic_accessories-c0dd0323.png?format=webp",
-        title:"ALL IN",
-        price:0.50
-    },
-    {
-        id:4,
-        imageURL:"https://growdice.co/assets/booster-6d1c3351.png?format=webp",
-        title:"BOOSTER",
-        price:0.27
-    },
-    {
-        id:5,
-        imageURL:"https://growdice.co/assets/10__scythe-08b601fa.png?format=webp",
-        title:"CHAOS",
-        price:0.11
-    },
-    {
-        id:6,
-        imageURL:"https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
-        title:"FIRE",
-        price:0.10
-    },
-    
-    {
-        id:7,
-        imageURL:"https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
-        title:"50% PROFIT",
-        price:0.88
-    },
-    {
-        id:8,
-        imageURL:"https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
-        title:"EXOTIC",
-        price:1.04
-    },
-    {
-        id:9,
-        imageURL:"https://growdice.co/assets/exotic_accessories-c0dd0323.png?format=webp",
-        title:"NO CARNIVAL",
-        price:1.50
-    },
-    {
-        id:10,
-        imageURL:"https://growdice.co/assets/booster-6d1c3351.png?format=webp",
-        title:"SPARKLING",
-        price:2.51
-    },
-    {
-        id:11,
-        imageURL:"https://growdice.co/assets/10__scythe-08b601fa.png?format=webp",
-        title:"10% PHOENIX",
-        price:4.08
-    },
-    {
-        id:12,
-        imageURL:"https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
-        title:"GEMSTONE",
-        price:5.00
-    },
-    {
-        id:13,
-        imageURL:"https://growdice.co/assets/starter-6b251a2b.png?format=webp",
-        title:"LOW RISK",
-        price:6.33
-    },
-    {
-        id:14,
-        imageURL:"https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
-        title:"BALLER",
-        price:299.88
-    },
-    {
-        id:15,
-        imageURL:"https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
-        title:"CURSED",
-        price:6.66
-    },
-    {
-        id:16,
-        imageURL:"https://growdice.co/assets/exotic_accessories-c0dd0323.png?format=webp",
-        title:"FROSTY",
-        price:5.13
-    },
-    {
-        id:17,
-        imageURL:"https://growdice.co/assets/booster-6d1c3351.png?format=webp",
-        title:"WINTER",
-        price:15.04
-    },
-    {
-        id:18,
-        imageURL:"https://growdice.co/assets/10__scythe-08b601fa.png?format=webp",
-        title:"COMEBACK",
-        price:24.84
-    },
-    {
-        id:19,
-        imageURL:"https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
-        title:"TREASURE",
-        price:150.14
-    },
-    {
-        id:20,
-        imageURL:"https://growdice.co/assets/starter-6b251a2b.png?format=webp",
-        title:"MAGPLANT",
-        price:63.01
-    },
-    {
-        id:21,
-        imageURL:"https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
-        title:"LUXURY",
-        price:10.59
-    },
-    {
-        id:22,
-        imageURL:"https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
-        title:"RAYMAN",
-        price:191.05
-    },
-    {
-        id:23,
-        imageURL:"https://growdice.co/assets/exotic_accessories-c0dd0323.png?format=webp",
-        title:"LUCKYOK",
-        price:109.92
-    },
-    {
-        id:24,
-        imageURL:"https://growdice.co/assets/starter-6b251a2b.png?format=webp",
-        title:"10% SCYT",
-        price:0.87
-    }
-]
-
-export const categories = [
-        {
         id: 1,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Wings",
@@ -163,61 +18,61 @@ export const categories = [
         id: 3,
         imageURL: "https://growdice.co/assets/booster-6d1c3351.png?format=webp",
         title: "Sorrow",
-        price: 0.03
+        price: 0.07
     },
     {
         id: 4,
         imageURL: "https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
         title: "Gems",
-        price: 0.04
+        price: 0.10
     },
     {
         id: 5,
         imageURL: "https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
         title: "Ruby",
-        price: 0.05
+        price: 0.15
     },
     {
         id: 6,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Emerald",
-        price: 0.06
+        price: 0.21
     },
     {
         id: 7,
         imageURL: "https://growdice.co/assets/booster-6d1c3351.png?format=webp",
         title: "Sapphire",
-        price: 4
+        price: 0.6
     },
     {
         id: 8,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Diamond",
-        price: 5
+        price: 0.7
     },
     {
         id: 9,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Crystal",
-        price: 6
+        price: 0.80
     },
     {
         id: 10,
         imageURL: "https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
         title: "Thunder",
-        price: 7
+        price: 1.00
     },
     {
         id: 11,
         imageURL: "https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
         title: "Phoenix",
-        price: 8
+        price: 1.2
     },
     {
         id: 12,
         imageURL: "https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
         title: "Dragon",
-        price: 9
+        price: 1.50
     },
     {
         id: 13,
@@ -283,31 +138,31 @@ export const categories = [
         id: 23,
         imageURL: "https://growdice.co/assets/booster-6d1c3351.png?format=webp",
         title: "Black Hole",
-        price: 36
+        price: 40
     },
     {
         id: 24,
         imageURL: "https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
         title: "Infinity",
-        price: 48
+        price: 50
     },
     {
         id: 25,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Eternity",
-        price: 54
+        price: 90
     },
     {
         id: 26,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Dreamscape",
-        price: 150.42
+        price: 120
     },
     {
         id: 27,
         imageURL: "https://growdice.co/assets/booster-6d1c3351.png?format=webp",
         title: "Abyss",
-        price: 220.44
+        price: 200.00
     },
     {
         id: 28,
@@ -325,7 +180,7 @@ export const categories = [
         id: 30,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Sunrise",
-        price: 600.5
+        price: 600
     },
     {
         id: 31,
@@ -397,7 +252,7 @@ export const categories = [
         id: 42,
         imageURL: "https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
         title: "Galaxy",
-        price: 1000.74
+        price: 1000.00
     },
     {
         id: 43,
@@ -627,4 +482,82 @@ export const categories = [
         title: "Void",
         price: 2000.0
     }
-]
+];
+exports.ItemToShow = [
+    {
+        id: 3,
+        listofobj: [
+            {
+                id: 2,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Aura",
+                price: 0.02,
+                prob: 19
+            },
+            {
+                id: 5,
+                imageURL: "https://growdice.co/assets/treasure-e8e879d5.png?format=webp",
+                title: "Ruby",
+                price: 0.15,
+                prob: 30
+            },
+            {
+                id: 6,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Emerald",
+                price: 0.21,
+                prob: 13
+            },
+            {
+                id: 9,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Crystal",
+                price: 0.80,
+                prob: 25
+            },
+            {
+                id: 12,
+                imageURL: "https://growdice.co/assets/10__phoenix-e982e152.png?format=webp",
+                title: "Dragon",
+                price: 1.50,
+                prob: 13
+            }
+        ]
+    },
+    {
+        id: 11,
+        listofobj: [
+            {
+                id: 2,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Aura",
+                price: 0.02,
+                prob: 19
+            },
+        ]
+    },
+    {
+        id: 18,
+        listofobj: [
+            {
+                id: 2,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Aura",
+                price: 0.02,
+                prob: 19
+            },
+        ]
+    },
+    {
+        id: 14,
+        listofobj: [
+            {
+                id: 2,
+                imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
+                title: "Aura",
+                price: 0.02,
+                prob: 19
+            },
+        ]
+    },
+];

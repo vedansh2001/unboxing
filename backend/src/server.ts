@@ -1,7 +1,7 @@
 // Importing module
 import express from 'express';
-import { categories, ItemToShow } from './database/data';
 import cors from 'cors';
+import { categories, ItemToShow } from './data';
 
 
 const app = express();
