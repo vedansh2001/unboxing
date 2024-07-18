@@ -147,7 +147,11 @@ export const items = [
 ]
 
 export const categories = [
+<<<<<<< HEAD
     {
+=======
+        {
+>>>>>>> 4e27e80caa1f49018c496659d5469eb4b36682d3
         id: 1,
         imageURL: "https://growdice.co/assets/50__profit-5d4d541e.png?format=webp",
         title: "Wings",
@@ -627,4 +631,9 @@ export const categories = [
         title: "Void",
         price: 2000.0
     }
+<<<<<<< HEAD
 ]
+=======
+    
+]
+>>>>>>> 4e27e80caa1f49018c496659d5469eb4b36682d3
