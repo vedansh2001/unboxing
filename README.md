@@ -8,9 +8,9 @@ The more they spend, the greater the value of the prizes in the case. However, t
 
 ## Screenshots
 
-![App Screenshot](ReadmePhotos\Screenshot 2024-07-19 232941.png)
-![App Screenshot](ReadmePhotos\Screenshot 2024-07-19 233044.png)
-![App Screenshot](ReadmePhotos/Screenshot 2024-07-19 233120.png)
+![App Screenshot](ReadmePhotos/Screenshot-1.png)
+![App Screenshot](ReadmePhotos/Screenshot-2.png)
+![App Screenshot](ReadmePhotos/Screenshot-3.png)
 
 
 ## Deployment
