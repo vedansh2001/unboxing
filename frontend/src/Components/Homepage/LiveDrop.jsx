@@ -23,10 +23,8 @@ const LiveDrop = () => {
     useEffect(() => {
       updateSlidesToShow();
   
-      // Add event listener for resize
       window.addEventListener('resize', updateSlidesToShow);
   
-      // Cleanup event listener on component unmount
       return () => window.removeEventListener('resize', updateSlidesToShow);
     }, []);
 

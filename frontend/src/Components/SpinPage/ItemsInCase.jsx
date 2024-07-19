@@ -3,8 +3,6 @@ import { categories } from '../../assets/Data';
 
 const ItemsInCase = (showItems) => {
 
-  // const displaycategories = categories.filter((item) => item.id > 5 && item.id < 11);
-  // console.log(showItems);
      const displaycategories = showItems.showItems.listofobj;
 
   return (

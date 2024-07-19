@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { categories } from '../../assets/Data';
 
 const Spinner = ({ isSliding, containerRef, itemsArray }) => {
   const randomID = Math.floor(80 * Math.random());
@@ -15,27 +14,6 @@ const Spinner = ({ isSliding, containerRef, itemsArray }) => {
     return shuffledArray;
   }
   const categories = shuffleArray(itemsArray);
-
-  // const [categories, setCategories] = useState([])
-  // setCategories(itemsArray)
-
-  // useEffect(() => {
-  //   const getFeedPosts = async () => {
-  //     try {
-  //       const res = await fetch("http://localhost:3000/");
-  //       if (!res.ok) {
-  //         throw new Error("Fetch error: " + res.status);
-  //       }
-  //       const data = await res.json();
-  //       setCategories(data);
-  //     } catch (error) {
-  //       alert("Error fetching data. Please try again later.");
-  //     }
-  //   }
-
-  //   getFeedPosts();
-
-  // }, []);
 
 
   return (

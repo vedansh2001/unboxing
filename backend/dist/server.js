@@ -10,7 +10,7 @@ const data_1 = require("./data");
 const app = (0, express_1.default)();
 let recievedId;
 app.use((0, cors_1.default)({
-    origin: 'https://main.d3rorkfeyy5adx.amplifyapp.com/',
+    origin: 'https://main.d3rorkfeyy5adx.amplifyapp.com',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
 }));

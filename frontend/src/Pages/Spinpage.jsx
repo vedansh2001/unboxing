@@ -17,7 +17,7 @@ const Spinpage = () => {
   useEffect(() => {
     const getItems = async () => {
       try {
-        const res = await fetch(`https://backend-r9oyhy6ku-vedansh-mishras-projects-5df6cc6a.vercel.app/getItems/${id}`);
+        const res = await fetch(`https://backend-r9oyhy6ku-vedansh-mishras-projects-5df6cc6a.vercel.app/getItems/3`);
         if (!res.ok) {
           throw new Error("Fetch error: " + res.status);
         }
