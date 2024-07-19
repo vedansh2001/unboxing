@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "proxy": "http://localhost:3000/",
+  "proxy": "https://backend-r9oyhy6ku-vedansh-mishras-projects-5df6cc6a.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
